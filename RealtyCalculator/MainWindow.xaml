@@ -1,0 +1,53 @@
+﻿<Window x:Class="RealtyCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealtyCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="250">
+    <Grid>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="250" VerticalAlignment="Top" Width="250">
+            <TabItem Header="Buyer">
+                <Grid Background="#FFE5E5E5" Margin="0,0,4,26">
+                    <TextBox x:Name="textBox" TabIndex="0" HorizontalAlignment="Left" Height="23" Margin="100,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="textBox1" TabIndex="1" HorizontalAlignment="Left" Height="23" Margin="100,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="textBox2" TabIndex="5" HorizontalAlignment="Left" Height="23" Margin="100,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="38,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Sale Price:"/></TextBlock>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="9,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Commission %:"/></TextBlock>
+                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="28,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Take Home:"/></TextBlock>
+                    <Button x:Name="button" TabIndex="4" Content="Calculate" HorizontalAlignment="Left" Margin="100,114,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+                    <CheckBox x:Name="checkBox" TabIndex="2" Content="Meybohm Listing" HorizontalAlignment="Left" Margin="100,63,0,0" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="checkBox1" TabIndex="3" Content="M-Move" HorizontalAlignment="Left" Margin="100,84,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Seller">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="sellerTextBox" TabIndex="0" HorizontalAlignment="Left" Height="23" Margin="100,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="sellerTextBox1" TabIndex="1" HorizontalAlignment="Left" Height="23" Margin="100,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="sellerTextBox2" TabIndex="4" HorizontalAlignment="Left" Height="23" Margin="100,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock x:Name="sellerTextBlock" HorizontalAlignment="Left" Margin="38,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Sale Price:"/></TextBlock>
+                    <TextBlock x:Name="sellerTextBlock1" HorizontalAlignment="Left" Margin="9,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Commission %:"/></TextBlock>
+                    <TextBlock x:Name="sellerTextBlock2" HorizontalAlignment="Left" Margin="28,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Take Home:"/></TextBlock>
+                    <Button x:Name="sellerButton" TabIndex="3" Content="Calculate" HorizontalAlignment="Left" Margin="100,114,0,0" VerticalAlignment="Top" Width="75" Click="sellerButton_Click"/>
+                    <CheckBox x:Name="sellerCheckBox1" TabIndex="2" Content="M-Move" HorizontalAlignment="Left" Margin="100,84,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="HUD Bid">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="hudTextBox" TabIndex="0" HorizontalAlignment="Left" Height="23" Margin="100,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="hudTextBox1" TabIndex="1" HorizontalAlignment="Left" Height="23" Margin="100,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="hudTextBox2" HorizontalAlignment="Left" Height="23" Margin="100,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock x:Name="hudTextBlock" HorizontalAlignment="Left" Margin="23,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Net to HUD:"/></TextBlock>
+                    <TextBlock x:Name="hudTextBlock1" HorizontalAlignment="Left" Margin="9,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Commission %:"/></TextBlock>
+                    <TextBlock x:Name="hudTextBlock2" HorizontalAlignment="Left" Margin="25,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Bid Amount:"/></TextBlock>
+                    <TextBlock x:Name="hudtextBlock3" HorizontalAlignment="Left" Margin="17,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Right"><Run FontWeight="Bold" Text="Closing Costs:"/></TextBlock>
+                    <Button x:Name="hudButton" TabIndex="3" Content="Calculate" HorizontalAlignment="Left" Margin="100,114,0,0" VerticalAlignment="Top" Width="75" Click="hudButton_Click"/>
+                    <TextBox x:Name="hudTextBox3" TabIndex="2" HorizontalAlignment="Left" Height="23" Margin="100,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>

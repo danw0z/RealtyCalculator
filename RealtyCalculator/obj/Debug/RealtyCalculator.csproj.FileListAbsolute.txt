@@ -1,0 +1,14 @@
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\RealtyCalculator.exe.config
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.csprojResolveAssemblyReference.cache
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\MainWindow.g.cs
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\App.g.cs
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator_MarkupCompile.cache
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator_MarkupCompile.lref
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\RealtyCalculator.exe
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\RealtyCalculator.pdb
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\MainWindow.baml
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.g.resources
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.Properties.Resources.resources
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.csproj.GenerateResource.Cache
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.exe
+c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.pdb
