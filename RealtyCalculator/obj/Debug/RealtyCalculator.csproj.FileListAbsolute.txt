@@ -12,3 +12,8 @@ c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyC
 c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.csproj.GenerateResource.Cache
 c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.exe
 c:\users\dwozniak\documents\visual studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\RealtyCalculator.pdb
+C:\Users\dwozniak\Documents\Visual Studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\MahApps.Metro.dll
+C:\Users\dwozniak\Documents\Visual Studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dwozniak\Documents\Visual Studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\MahApps.Metro.pdb
+C:\Users\dwozniak\Documents\Visual Studio 2015\Projects\RealtyCalculator\RealtyCalculator\bin\Debug\MahApps.Metro.xml
+C:\Users\dwozniak\Documents\Visual Studio 2015\Projects\RealtyCalculator\RealtyCalculator\obj\Debug\App.baml
